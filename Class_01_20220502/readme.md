@@ -9,6 +9,8 @@
 - [x] **5.** [Github Formatting](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)  
 - [x] **6.** **Check code**  
 ![image](https://user-images.githubusercontent.com/38009737/166292836-77ccf4ff-940b-4d6b-9b29-a8c77e5d3f67.png)  
+
+## Code
 ```
 # Pirmā nodarbība
 - [x] **1.** **Apskatīt lapas saturu**  
