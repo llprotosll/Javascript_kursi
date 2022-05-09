@@ -21,6 +21,6 @@ pieraksts kā Linuxls
  parāda visu
  - command - ls -la
  visu ar papildu info
- image.png
+![image](https://user-images.githubusercontent.com/38009737/167460617-86c724c1-f422-43ef-a654-d1d64b0a81d2.png)
 
 >linux hide folders ". pirms nosaukuma"
