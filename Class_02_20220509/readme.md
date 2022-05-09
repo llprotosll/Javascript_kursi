@@ -23,4 +23,12 @@ pieraksts kā Linuxls
  visu ar papildu info
 ![image](https://user-images.githubusercontent.com/38009737/167460617-86c724c1-f422-43ef-a654-d1d64b0a81d2.png)
 
+user config pirms upload  
+ - Vai nu caur Gitbash (atsevišķi)
+ - vai arī VSC (Terminal)
+ 
+```
+git config --global user.email "you@example.com"
+git config --global user.name "Your Name"
+```
 >linux hide folders ". pirms nosaukuma"
