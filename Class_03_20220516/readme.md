@@ -38,3 +38,4 @@ lai sadalītu tekstu līnijās <br> starp tekstu
  ### 7. HTML lapas elementus var pārbaudīt ar Inspect  
  
 >!Uzdevums - uztaisīt HTML tabulu. jāsatur MA (iniciāļi) - ACIII kods, hex kods, Octal kods. Ieskaitot visu savā krāsā.
+>![image](https://user-images.githubusercontent.com/38009737/168649508-f39471a5-6bcd-4277-a15c-41dd96f7c3e0.png)
