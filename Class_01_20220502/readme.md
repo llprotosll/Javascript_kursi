@@ -16,6 +16,10 @@
 ![image](https://user-images.githubusercontent.com/38009737/168652257-550fae99-cc36-4832-9a9c-994e3287f7a5.png)
 - skaitīšana
 ![image](https://user-images.githubusercontent.com/38009737/168653693-bc77b3cc-5a9c-4010-89b9-8b1baae4ffcb.png)
+- hex?
+- ![image](https://user-images.githubusercontent.com/38009737/168654458-92747a95-7c68-444e-ba9b-a28a95fcfc64.png)
+hex grid prioritāri x/y
+![image](https://user-images.githubusercontent.com/38009737/168654711-855d60c3-7a5d-4faf-83e5-bec92608bf63.png)
 
 ## Code
 ```
