@@ -10,6 +10,11 @@
 - [x] **6.** **Check code**  
 ![image](https://user-images.githubusercontent.com/38009737/166292836-77ccf4ff-940b-4d6b-9b29-a8c77e5d3f67.png)  
 
+- Dec to bin formula
+![image](https://user-images.githubusercontent.com/38009737/168651520-45921247-e7c6-489f-b9e7-22f87389c304.png)
+- Bin to dec formula
+![image](https://user-images.githubusercontent.com/38009737/168652257-550fae99-cc36-4832-9a9c-994e3287f7a5.png)
+
 ## Code
 ```
 # Pirmā nodarbība
