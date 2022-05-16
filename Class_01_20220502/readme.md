@@ -14,6 +14,8 @@
 ![image](https://user-images.githubusercontent.com/38009737/168651520-45921247-e7c6-489f-b9e7-22f87389c304.png)
 - Bin to dec formula
 ![image](https://user-images.githubusercontent.com/38009737/168652257-550fae99-cc36-4832-9a9c-994e3287f7a5.png)
+- skaitīšana
+![image](https://user-images.githubusercontent.com/38009737/168653693-bc77b3cc-5a9c-4010-89b9-8b1baae4ffcb.png)
 
 ## Code
 ```
