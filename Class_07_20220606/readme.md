@@ -4,3 +4,5 @@ https://javascript.info/logical-operators
 
 "a".charCodeAt ();
 https://stackoverflow.com/questions/10879244/how-to-get-the-ascii-value-in-javascript-for-the-characters
+
+![image](https://user-images.githubusercontent.com/38009737/172214386-bda5e821-a706-4c10-8c46-71a7bfeda10c.png)
