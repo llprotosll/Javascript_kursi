@@ -1,7 +1,8 @@
 // +.-.*./
 // ||,&&,!
 // |,&,~
-
+// <<, >>
+//>,>=, <. <=, == (vienāds), !=, === (identisks)
 
 456||0;
 
@@ -22,7 +23,7 @@ x&1 -> 0000 000(x)
 
 // program to check if the number is even or odd
 // take input from the user
-const number = prompt("Enter a number: ");
+*const number = prompt("Enter a number: ");
 
 //check if the number is even
 if(number % 2 == 0) {
