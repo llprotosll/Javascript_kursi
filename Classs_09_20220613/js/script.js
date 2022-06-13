@@ -55,31 +55,3 @@ var zero_th_bit = (x >> 7) & 1;
 console.log (zero_th_bit);
 bit_sequence = zero_th_bit + bit_sequence;
 console.log (bit_sequence)
-
-/*
-var bit_number = 7;
-var y = (x << (bit_number-7)) >> bit_number;
-var a = String(y);
-y = (x << (bit_number-6)) >> bit_number;
-a = a + String(y);
-y = (x << (bit_number-5)) >> bit_number;
-a = a + String(y);
-y = (x << (bit_number-4)) >> bit_number;
-a = a + String(y);
-y = (x << (bit_number-3)) >> bit_number;
-a = a + String(y);
-y = (x << (bit_number-2)) >> bit_number;
-a = a + String(y);
-y = (x << (bit_number-1)) >> bit_number;
-a = a + String(y);
-*/
-
-//document.getElementById("bin").innerHTML = y;
-//binars=xo-(2*(xo>>1)),xo=xo>>1
-
-/*
-pareizi ir 
-Number(x).toString(2)
-(x >> 7) & 1
-(x >> 6) & 1
-*/
