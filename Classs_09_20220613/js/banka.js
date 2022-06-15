@@ -21,7 +21,7 @@ var term = 7
 var year = "Ja ieguldīsiet to mūsu bankā uz"
 //sum*($*(term-));
 
-//procenti % = $ * (term - gads)
+//gads % = $ * (term - gads)
 
 text = "Cien. " + NS
 console.log (text);
@@ -41,3 +41,14 @@ text8 = year + " 6 gadiem, tad termiņa beigās kā % saņemsiet " +  sum*($*(te
 console.log (text8);
 text9 = year + " 7 gadiem, tad termiņa beigās kā % saņemsiet " +  sum*($*(term)) + " EUR.";
 console.log (text9);
+
+document.getElementById("client").innerHTML = NS;
+document.getElementById("money").innerHTML = sum;
+document.getElementById("intro").innerHTML = text2;
+document.getElementById("gads_1").innerHTML = text3;
+document.getElementById("gads_2").innerHTML = text4;
+document.getElementById("gads_3").innerHTML = text5;
+document.getElementById("gads_4").innerHTML = text6;
+document.getElementById("gads_5").innerHTML = text7;
+document.getElementById("gads_6").innerHTML = text8;
+document.getElementById("gads_7").innerHTML = text9;
