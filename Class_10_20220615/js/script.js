@@ -19,3 +19,4 @@ cars [x].length;
 
 cars.sort()
 //sakārtot masīva vērtības; izmaina orģinālo secību
+
