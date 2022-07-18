@@ -1,0 +1,56 @@
+0. JavasScript:
+ - iekš HTML (var būt zem head vai body, iekš <script> tagiem); vēlams beigās (paātrina lapas ielādi)
+ - atsevišķā lokālā failā
+ - atsevišķā ārējā failā 
+ - scopes - {}
+ - JS programmēšanas teikumi beidzas ar - ;
+  = brpser + inspect + Console + Source
+
+1. Variables (mainīgie)
+ - var, let, const
+ - primitīvie datu tipi (Number, String, Boolean, u.c.)
+ - daudzas dažādas matemātiskās, loģiskās, bitu utt., operācijas
+
+2. array (masīvi)
+ - viens_vārds [daudzi indeksēti elementi/vērtības] - []
+ - dažādas metodes un darbības ar masīvu
+  = string - simbolu masīvs
+    "static text 1" + variable_value_OR_operation_result + "static text 2"
+    `static text 1 + ${variable_value_OR_operation_result} static text 2`
+
+3. if (koda izpildes zarošana)
+ - else
+ - izšķiršanās par vēlamo turpmāko izmantojamo vērtību ar konstrukciju - 
+    (nosacījums) ? true_vērtība : false_vērtība;
+
+3.1 switch (koda izpildes zarošana, ja ir daudz plašāka nākamā zara izvēle)
+ - break;
+ - default;
+
+4. loops (cikli)
+ - for( ; ; ){}
+ - while(){}
+ - do{} ... while()
+  = for (array_current_element of array)
+
+5. function
+ - function function_name(function_arguments){function_body} - definition with statement
+ - const (/var/let) function_name = function(function_arguments){function_body} - definition with expression
+                                  = function function_entire_name_for_recursion(function_arguments){function_body} - definition with expression
+  = functions defined by expression can't be hoisted - nevar tikt imantotas pirms definēšanas (apraksta)
+ - pārlūku iebūvētās funkcijas
+
+6. objects
+ - properties (īpašības) - object_name.object_property_name
+                         - object_name["object_property_name"]
+
+ - methods (funkcijas)
+  - this (window, object, HTML element in case of event)
+  = //objekta definēšana ar literāļa palīdzību
+        const object_name = {object_property_name:"Fiat", object_property_value:"500", };
+        const object_name = {};
+        const object_name = new Object{};
+  = object_name.object_property_name = pbject_property_value;
+  = object_name.object_method_name.call(other_object_name);
+  = oter_object_name.other_object_method_name = object_name.object_method_name.bind(other_object_name);
+ - pārlūku iebūvēti objekti (console)
