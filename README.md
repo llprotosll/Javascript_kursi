@@ -1,2 +1,0 @@
-# Javascript_kursi
-pieraksti
