@@ -2,7 +2,7 @@ window.onload = function () {
 
     var alphabet = ['a', 'ā', 'b', 'c', 'č', 'd', 'e', 'ē', 'f', 'g', 'ģ', 'h',
           'i', 'ī', 'j', 'k', 'ķ', 'l', 'ļ', 'm', 'n', 'ņ', 'o', 'p', 'r', 's', 'š',
-          't', 'u', 'ū', 'v', 'z', 'ž'];
+          't', 'u', 'ū', 'v', 'z', 'ž', ''];
     
     var categories;         // Array of topics
     var chosenCategory;     // Selected catagory
@@ -13,14 +13,14 @@ window.onload = function () {
     var lives ;             // Lives
     var counter ;           // Count correct geusses
     var space;              // Number of spaces in word '-'
-    var used;
+    
   
     // Get elements
     var showLives = document.getElementById("mylives");
     var showCatagory = document.getElementById("scatagory");
     var getHint = document.getElementById("hint");
     var showClue = document.getElementById("clue");
-    var used = document.getElementById("alphabet")
+    var used = document.getElementById("alphabet");
 
  
   
@@ -73,6 +73,7 @@ window.onload = function () {
         geusses.push(guess);
         wordHolder.appendChild(correct);
         correct.appendChild(guess);
+        
       }
     }
     
@@ -210,8 +211,7 @@ window.onload = function () {
   
     play();
     
-    // Hint
-  
+    // Hint  
       hint.onclick = function() {
   
         hints = [
@@ -225,8 +225,7 @@ window.onload = function () {
       showClue.innerHTML = "Pavediens: - " +  hints [catagoryIndex][hintIndex];
     };
   
-     // Reset
-  
+     // Reset  
     document.getElementById('reset').onclick = function() {
       correct.parentNode.removeChild(correct);
       letters.parentNode.removeChild(letters);

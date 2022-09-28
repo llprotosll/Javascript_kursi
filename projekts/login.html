@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lan="en" and dir="Itr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Interactive Login Form</title>
+    <link rel="stylesheet" href="login.css" />
+    <script src="./js/login.js"></script>
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico" />
+  </head>
+  <body>
+    <form class="box" action="login.html" method="POST" onsubmit="return false">
+      <h1>Karātavas</h1>
+      <input
+        type="text"
+        name=""
+        placeholder="Ievadi lietotājvārdu"
+        id="username"
+        required
+      />
+      <input
+        type="password"
+        name=""
+        placeholder="Ievadi paroli"
+        id="password"
+        required
+      />
+
+      <input type="submit" name="" value="Pieteikties" onclick="validate()" />
+    </form>
+  </body>
+</html>
