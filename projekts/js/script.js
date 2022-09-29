@@ -46,11 +46,11 @@ window.onload = function () {
     // Select Catagory
     var selectCat = function () {
       if (chosenCategory === categories[0]) {
-        catagoryName.innerHTML = "Atbildes tēma - Augļi";
+        catagoryName.innerHTML = "Atbildes tēma: Augļi";
       } else if (chosenCategory === categories[1]) {
-        catagoryName.innerHTML = "Atbildes tēma - Filmas";
+        catagoryName.innerHTML = "Atbildes tēma: Filmas";
       } else if (chosenCategory === categories[2]) {
-        catagoryName.innerHTML = "Atbildes tēma - Pilsētas";
+        catagoryName.innerHTML = "Atbildes tēma: Pilsētas";
       }
     }
   

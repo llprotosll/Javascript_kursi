@@ -7,7 +7,7 @@ var password=document.getElementById("password").value;
 
 if(username=="admin"&& password=="1234")
 { 
-    alert("login successful");
+    alert("Pieteikšanās veiksmīga");
     setTimeout(function(){
         window.location.href="hangman.html"
     }, 200); 
@@ -18,7 +18,7 @@ if(username=="admin"&& password=="1234")
 }
 else
 {
-    alert("login failed");
+    alert("Pieteikšanās nav izdevusies");
     validate.preventDefault()
 }
 
