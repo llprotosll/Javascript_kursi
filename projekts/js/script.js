@@ -1,3 +1,4 @@
+//https://codepen.io/cathydutton/pen/JjpxMm
 window.onload = function () {
 
     var alphabet = ['a', 'ā', 'b', 'c', 'č', 'd', 'e', 'ē', 'f', 'g', 'ģ', 'h',
@@ -13,20 +14,21 @@ window.onload = function () {
     var lives ;             // Lives
     var counter ;           // Count correct geusses
     var space;              // Number of spaces in word '-'
+    let wins = 0;
+    let loses = 0;
     
   
-    // Get elements
+    //tiek izveidoti elementi
     var showLives = document.getElementById("mylives");
     var showCatagory = document.getElementById("scatagory");
     var getHint = document.getElementById("hint");
     var showClue = document.getElementById("clue");
     var used = document.getElementById("alphabet");
 
- 
+
   
   
-  
-    // create alphabet ul
+    // tiek izveidots alfabēts uz kura tiks izvēlēti burti
     var buttons = function () {
       myButtons = document.getElementById('buttons');
       letters = document.createElement('ul');
@@ -43,7 +45,7 @@ window.onload = function () {
     }
       
     
-    // Select Catagory
+    // Tiek izveidotas atbilžu kategorijas
     var selectCat = function () {
       if (chosenCategory === categories[0]) {
         catagoryName.innerHTML = "Atbildes tēma: Augļi";
@@ -54,7 +56,7 @@ window.onload = function () {
       }
     }
   
-    // Create geusses ul
+    // Tiek izveidota vieta, kur tiks uzrādīta atbilde un korekti uzminētie burti
      result = function () {
       wordHolder = document.getElementById('hold');
       correct = document.createElement('ul');
@@ -77,7 +79,7 @@ window.onload = function () {
       }
     }
     
-    // Show lives
+    // Tiek izveidota kļūdaino atbilžu uzskaite
      comments = function () {
       showLives.innerHTML = "Tu vari pieļaut " + lives + " kļūdas";
       if (lives < 1) {
@@ -90,14 +92,14 @@ window.onload = function () {
       }
     }
   
-        // Animate man
+        // Karātavu zīmēšana
     var animate = function () {
       var drawMe = lives ;
       drawArray[drawMe]();
     }
   
     
-     // Hangman
+     // Salikta secība un koordinātas, kur uzzīmēt bildi
     canvas =  function(){
   
       myStickman = document.getElementById("stickman");
@@ -161,7 +163,7 @@ window.onload = function () {
     drawArray = [rightLeg, leftLeg, rightArm, leftArm,  torso,  head, frame4, frame3, frame2, frame1]; 
   
   
-    // OnClick Function
+    // Funkcija, kas notiek uzspiežot uz burtiem
      check = function () {
       list.onclick = function () {
         var geuss = (this.innerHTML);
@@ -185,7 +187,7 @@ window.onload = function () {
     }
     
       
-    // Play
+    // Masīvā saliktas atbildes, kas būs jāatmin
     play = function () {
       categories = [
           ["ābols", "persiks", "plūme", "banāns", "zemene", "kivi", "ananāss"],
@@ -211,7 +213,7 @@ window.onload = function () {
   
     play();
     
-    // Hint  
+    // Masīvs ar pavedieniem  
       hint.onclick = function() {
   
         hints = [
@@ -225,7 +227,7 @@ window.onload = function () {
       showClue.innerHTML = "Pavediens: - " +  hints [catagoryIndex][hintIndex];
     };
   
-     // Reset  
+     // Spēles atkārtošana  
     document.getElementById('reset').onclick = function() {
       correct.parentNode.removeChild(correct);
       letters.parentNode.removeChild(letters);
