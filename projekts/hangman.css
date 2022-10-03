@@ -165,3 +165,8 @@ body {
   background-size: cover;
   color: #FFFFFF;
 }
+.rules-btn {
+  position: absolute;
+  top: 30px;
+  left: 30px;
+}

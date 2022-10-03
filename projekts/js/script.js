@@ -163,7 +163,7 @@ window.onload = function () {
     drawArray = [rightLeg, leftLeg, rightArm, leftArm,  torso,  head, frame4, frame3, frame2, frame1]; 
   
   
-    // Funkcija, kas notiek uzspiežot uz burtiem
+    // Funkcija minējumam, kas notiek uzspiežot uz burtiem
      check = function () {
       list.onclick = function () {
         var geuss = (this.innerHTML);
@@ -175,6 +175,7 @@ window.onload = function () {
             counter += 1;
           } 
         }
+        //atkarībā no pareizs vai nepareizs - tiek uzsākta zīmēšana
         var j = (word.indexOf(geuss));
         if (j === -1) {
           lives -= 1;
@@ -187,20 +188,20 @@ window.onload = function () {
     }
     
       
-    // Masīvā saliktas atbildes, kas būs jāatmin
+    // Masīvā saliktas atbildes, kas būs jāatmin (17 atbildes)
     play = function () {
       categories = [
           ["ābols", "persiks", "plūme", "banāns", "zemene", "kivi", "ananāss"],
-          ["svešie", "matrix", "gladiators", "neatkarības-diena", "cietais-rieksts"],
+          ["svešie", "matrix", "gladiators", "neatkarības diena", "cietais rieksts"],
           ["londona", "parīze", "barselona", "amsterdama", "tartu"]
       ];
-  
+  //funkcija, lai gadījuma veidā uzsākot jaunu spēli tiktu paņemts minamais vārds no kategorijām
       chosenCategory = categories[Math.floor(Math.random() * categories.length)];
       word = chosenCategory[Math.floor(Math.random() * chosenCategory.length)];
       word = word.replace(/\s/g, "-");
       console.log(word);
       buttons();
-  
+  //tiek iestatīst minējumu skaits līdz spēle ir zaudēta
       geusses = [ ];
       lives = 10;
       counter = 0;
